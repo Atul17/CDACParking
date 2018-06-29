@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1084823862288",
+    "firebase_url": "https://cdacparking-70c50.firebaseio.com",
+    "project_id": "cdacparking-70c50",
+    "storage_bucket": "cdacparking-70c50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084823862288:android:6057f57ff0f4a4a6",
+        "android_client_info": {
+          "package_name": "diot.cdac.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084823862288-tg86ql6ukt1gh40jc567iuao4q2abnq6.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1084823862288-tg86ql6ukt1gh40jc567iuao4q2abnq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr8pNthGL6SQ29XgQlccm4yLAIuKiD590"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
