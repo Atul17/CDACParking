@@ -3,7 +3,24 @@ package diot.cdac.com;
 public class SlotData {
 
     public String sl_name;
-    public long book_status,slot_status;
+
+    public String getMac_id() {
+        return mac_id;
+    }
+
+    public void setMac_id(String mac_id) {
+        this.mac_id = mac_id;
+    }
+
+    public SlotData(String sl_name, String mac_id, long book_status, long slot_status) {
+        this.sl_name = sl_name;
+        this.mac_id = mac_id;
+        this.book_status = book_status;
+        this.slot_status = slot_status;
+    }
+
+    public String mac_id;
+    public long book_status, slot_status;
 
     public SlotData(String sl_name, long book_status, long slot_status) {
         this.sl_name = sl_name;

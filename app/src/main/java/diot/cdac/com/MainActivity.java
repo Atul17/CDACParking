@@ -1,5 +1,6 @@
 package diot.cdac.com;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -8,6 +9,7 @@ import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -30,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private long book_status, slot_status;
 
     private ProgressBar bar;
+    private ImageView img;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +47,15 @@ public class MainActivity extends AppCompatActivity {
 
         bar = findViewById(R.id.prgBar);
         bar.setVisibility(View.VISIBLE);
+
+        img =findViewById(R.id.logo);
+
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),ParkingActivity.class));
+            }
+        });
 
 
         database = FirebaseDatabase.getInstance();

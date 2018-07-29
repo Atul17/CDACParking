@@ -2,5 +2,6 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/capriola</item>
+        <item>@font/exo_2_thin</item>
     </array>
 </resources>
