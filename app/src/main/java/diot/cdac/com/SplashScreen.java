@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
+/**
+ * Created by Atul Upadhye
+ **/
 public class SplashScreen extends AppCompatActivity {
     public static int SPLASH_SCREEN_TIMEOUT = 3000;
 

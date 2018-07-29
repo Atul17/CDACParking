@@ -1,5 +1,7 @@
 package diot.cdac.com;
-
+/**
+ * Created by Atul Upadhye
+ **/
 public class SlotData {
 
     public String sl_name;

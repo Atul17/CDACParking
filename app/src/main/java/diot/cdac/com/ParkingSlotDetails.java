@@ -1,5 +1,7 @@
 package diot.cdac.com;
-
+/**
+ * Created by Atul Upadhye
+ **/
 public class ParkingSlotDetails {
     public long getBook_status() {
         return book_status;
